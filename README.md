@@ -2,24 +2,6 @@
 
 Simple and clean blog/portfolio website built with <a href="https://astro.build/" target="_blank">Astro</a> and <a href="https://(https://unocss.dev/)" target="_blank">UnoCSS</a>.
 
-Visit [andka.my.id](https://andka.my.id) for live preview
-
-<!-- image -->
-
-<figure>
-    <source 
-        srcset="https://raw.githubusercontent.com/xirf/xirf-portofolio/main/public/images/screenshot-dark.png"
-        media="(prefers-color-scheme: dark)" />
-    <source 
-        srcset="https://raw.githubusercontent.com/xirf/xirf-portofolio/main/public/images/screenshot-light.png"
-        media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
-    <img
-        src="https://raw.githubusercontent.com/xirf/xirf-portofolio/main/public/images/screenshot-light.png"
-        alt="XIRF - Personal Blog & Portfolio" />
-</figure>
-
-> [!NOTE]
-> This web will moved to use CMS in the future
 
 ## Installation
 
@@ -28,7 +10,7 @@ To run this project locally, you need to have Node.js and npm installed on your 
 1. Clone this repository
 
 ```bash
-git clone https://github.com/xirf/xirf-portofolio.git
+git clone https://github.com/feninurulhafifah/my-porto.git
 ```
 
 2. Install the dependencies
@@ -54,11 +36,6 @@ yarn dev
 4. Open your browser and navigate to `http://localhost:4321`
 5. Edit and deploy your changes!
 
-If you wanna modify this project you can follow the [Astro documentation](https://docs.astro.build/getting-started) and [UnoCSS documentation](https://unocss.dev/guide/).
-
-## Contributing & Forking
-
-This repo is free to use and modify. If you want to use this repo as a template, you can fork it and modify it to your liking. If you want to contribute, you can fork it and make a pull request.
 
 ## License
 
