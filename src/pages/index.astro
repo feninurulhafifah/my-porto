@@ -1,0 +1,75 @@
+---
+import Layout from "../layouts/Layout.astro";
+
+const socialMedia = [
+  {
+    link: "https://github.com/feninurulhafifah",
+    icon: "i-myna-brand-github",
+    name: "Github",
+  },
+  {
+    link: "https://www.linkedin.com/in/feninurulhafifah",
+    icon: "i-myna-brand-linkedin",
+    name: "Linkedin",
+  },
+  {
+    link: "https://instagram.com/fromhaffen_",
+    icon: "i-myna-brand-instagram",
+    name: "Instagram",
+  },
+];
+---
+
+<Layout
+  title="Call me Feni, welcome to my home"
+  description="Feni Nurul Hafifah, a student in Informatics Engineering, technology is my passion and dreaming about a better world with it and making it happen is a dream come true. I am generally into web dev things but over the past few month I have begun learning about android dev using kotlin if you are interested, you can visit my projects here. Ouside coding, I often spend my time playing some non-serious games, watching animes and reading manga if you have any recommendations please don't hesitate to suggest them. Currently I live in Bekasi, West Java so in case you're around don't hesitate to contact me, perhaps we'll grab some coffee or do some collaboration."
+>
+  <div class="flex items-center justify-center min-h-70vh p-12">
+    <div class="w-full grid gap-3 max-w-xl slide-enter-content">
+      <h1 class="dark:text-#e5e7eb text-4xl font-bold item">Feni Hafifah</h1>
+      <div>
+        <p>A Software Developer</p>
+      </div>
+      <p>
+        I work with multiplatform development using Flutter and Vue.js. I enjoy
+        coding and continue to learn new things. You can view my
+        <a href="/projects" class="font-bold underline">projects here</a>.
+      </p>
+      <p>
+        I recently created <a
+          href="https://github.com/feninurulhafifah/Mobile-React"
+          target="_blank"
+          class="font-bold underline"
+          rel="nofollow noopener noreferrer">Mobile Recipe</a
+        > as a new challenge. Feedback is welcome.
+      </p>
+      <p>
+        <b>Off-duty?</b> I play video games and read manga and anime. I'm open to
+        recommendations if you have any.
+      </p>
+      <p>
+        I'm based in <b>Bekasi, West Java</b>. If you're in the area, feel free
+        to connect over coffee.
+      </p>
+      <div class="w-20 h-1px bg-gray opacity-50 mx-auto mt-2"></div>
+      <div class="text-sm">
+        <p>Links:</p>
+        <div class="flex items-start justify-start gap-4 mt-2">
+          {
+            socialMedia.map((url) => (
+              <a
+                href={url.link}
+                class="btn-normal flex items-center justify-center gap-2 transition-all duration-300 ease-in-out hover:(opacity-100 bg-#8882) opacity-90"
+                target="_blank"
+                rel="external nofollow noopener noreferrer"
+              >
+                <span class:list={[url.icon, "inline-block", "w-4", "h-4"]} />
+                {url.name}
+              </a>
+            ))
+          }
+        </div>
+      </div>
+    </div>
+  </div>
+</Layout>

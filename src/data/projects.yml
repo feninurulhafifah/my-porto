@@ -1,0 +1,30 @@
+# leave url blank to block the link
+# image is a icon aside the project name, you can use any icon from https://icon-sets.iconify.design/solar/
+---
+# current:
+#   - name: TeXpr
+#     url: https://pub.dev/packages/texpr
+#     description: Dart package for evaluating LaTeX math expressions
+#     image: i-solar-calculator-minimalistic-bold-duotone
+android:
+  - name: RITZ 
+    url: https://github.com/feninurulhafifah/Mobile-Kalkulator
+    description: A Responsive Calculator
+    image: i-solar-sledgehammer-bold-duotone
+  
+  - name: Recipe App
+    url: https://github.com/feninurulhafifah/Mobile-React/tree/main
+    description: Recipe Apps
+    image: i-solar-gift-bold-duotone
+
+
+web:
+  - name: Sigma Medic
+    description: SigmaMedic is a university final project (Project UAS) built with Vue 3 and Vite for developing a web-based medical or health-related application.
+    url: https://github.com/feninurulhafifah/SigmaMedic.git
+    image: i-solar-calculator-bold-duotone
+  - name: BUMDes 
+    description: A front-end web project built with HTML, CSS, JavaScript, and Gulp, designed to support Village-Owned Enterprises (BUMDes) as indicated by its name and deployment link.
+    url: https://github.com/feninurulhafifah/web-bumdes
+    image: i-solar-gallery-favourite-bold-duotone
+  
